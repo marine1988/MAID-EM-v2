@@ -12,37 +12,20 @@ Current version is: _v0.1.2 (21/06/2018)_
 + Separate file with all the variables that need to be configured, so you do not have to mess with all the code
 + MQTT enabled with the PubSubClient library
 + Configurable MQTT topics to fit your needs
-+ Publishes various information over MQTT:
++ Publishes various information over MQTT, web, serial and telnet/debug interfaces:
   + Current Consumption (kWh)
   + Current Power (Watt)
   + Accumulated Consumption (kWh)
+  + Set CPU speed for ESP8266 (telnet only)
+  + Remote reset of the device (telnet only)
+  + Free Heap RAM (telnet only)
   + IP address
   + MAC address
 + Retains the last accumulated consumption value even if the device is rebooted, reset or powered off
 + ESP8266 Webserver to create a web interface
 + Web interface uses Bootstrap framework
-+ Information available on the web interface:
-  + Current Consumption (kWh)
-  + Current Power (Watt)
-  + Accumulated Consumption (kWh)
 + A button on the web interface allows to reset the device remotely
 + Debug info via serial interface
-+ Information available on the serial interface:
-  + IP address
-  + MAC address
-  + Current Consumption (kWh)
-  + Current Power (Watt)
-  + Accumulated Consumption (kWh)
-+ Telnet server
-  + Set CPU speed for ESP8266 (80MHz/160MHz)
-  + Remote reset of the device
 + Remote debug via Telnet server with configurable debug level (verbose, debug, info, warning and errors), profiler and filter
-+ Information available on the telnet interface
-  + Host name
-  + IP address
-  + MAC address
-  + Free Heap RAM
-  + Current Consumption (kWh)
-  + Current Power (Watt)
-  + Accumulated Consumption (kWh)
 + Visual confirmation of operation using the device internal blue LED
++ OTA updates
