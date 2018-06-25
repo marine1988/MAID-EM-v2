@@ -5,7 +5,7 @@ The **MAID-EM v2 - Energy Monitor** is an energy monitor based on a ESP8266 boar
 The **MAID** acronym stands for **M**qtt en**A**bled w**I**fi no**D**e.
 
 ### Version
-Current version is: _v0.0.1 (20/06/2018)_
+Current version is: _v0.1.2 (21/06/2018)_
 
 ### Features
 + Works on ESP8266-based boards.
