@@ -20,7 +20,7 @@
 
 //************* INCLUDE LIBRARIES ************************************************************************
 //********************************************************************************************************
-#include "userdata_devel.h"																											// Load external configuration file
+#include "userdata.h"																											// Load external configuration file
 #include "WifiConfig.h"                                               					// Load wifi configuration file
 #include <Arduino.h>
 #include <TimeLib.h>

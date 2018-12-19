@@ -13,8 +13,8 @@
 // and Hostname must be unique inside your network
 //********************************************************************************************************
   #ifndef WIFI_CONFIG_H
-  #define YOUR_WIFI_SSID "wifi_ssid"                                            // Wifi SSID
-  #define YOUR_WIFI_PASSWD "wifi_password"                                      // Wifi password
+  #define YOUR_WIFI_SSID "rD_domotic"                                            // Wifi SSID
+  #define YOUR_WIFI_PASSWD "9645077188"                                      // Wifi password
   #endif // !WIFI_CONFIG_H
 
 // If you want to use a fixed IP address, open "wifiConfig.h" and edit lines 123, 124 and 125
@@ -38,10 +38,10 @@
 //************* CONFIG MQTT ******************************************************************************
 // Configurations of your MQTT server -
 //********************************************************************************************************
-  const char* MQTT_SERVER = "xxx.xxx.xxx.xxx";                                  // MQTT server IP ou URL
+  const char* MQTT_SERVER = "192.168.1.6";                                  // MQTT server IP ou URL
   int MQTT_PORT = 1883;                                                         // MQTT port
-  const char* MQTT_USERNAME = "mqtt_username";                                  // MQTT user
-  const char* MQTT_PASSWORD = "mqtt_password";                                  // MQTT password
+  const char* MQTT_USERNAME = "marine88";                                  // MQTT user
+  const char* MQTT_PASSWORD = "impresora";                                  // MQTT password
 
 //************ MQTT LWT **********************************************************************************
 // Configurations of your MQTT LWT - Define here the Last Will and Testment of your device. the MQTT broker and the
